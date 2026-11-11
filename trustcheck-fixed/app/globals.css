@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #eab308;
+}
+
+body {
+  @apply bg-dark-900 text-gray-100;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%);
+}
